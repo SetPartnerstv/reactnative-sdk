@@ -4,11 +4,11 @@
   "version": "2.0.0",
   "description": "GPBonus ReactNative SDK",
   "main": "index.js",
-  "main-internal": "src/index.ts",
-  "react-native": "src/index.ts",
+  "react-native": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "scripts": {
     "lint": "eslint \"src/**/*.{ts, tsx}\"",
@@ -17,10 +17,10 @@
     "dev": "tsc --watch",
     "test:ts": "tsc --noEmit"
   },
+  "homepage": "https://github.com/SetPartnerstv/reactnative-sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SetPartnerstv/reactnative-sdk.git",
-    "baseUrl": "https://github.com/SetPartnerstv/reactnative-sdk"
+    "url": "git+https://github.com/SetPartnerstv/reactnative-sdk.git"
   },
   "keywords": [
     "react-native"
