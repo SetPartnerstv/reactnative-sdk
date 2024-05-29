@@ -15,7 +15,7 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-import RNGPBonus, {GPBonusHandle} from 'react-native-gpbonus-sdk';
+import RNGPBonus, {GPBonusHandle} from '@setpartnerstv/react-native-gpbonus-sdk';
 
 const url = 'https://widget.gazprombonus.ru';
 

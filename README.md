@@ -1,4 +1,4 @@
-# react-native-gpbonus-sdk
+# @setpartnerstv/react-native-gpbonus-sdk
 
 ## О проекте
 
@@ -25,9 +25,9 @@ npm install git+https://github.com/SetPartnerstv/reactnative-sdk.git
 
 ```
 cd my-project
-npm i react-native-gpbonus-sdk
+npm i @setpartnerstv/react-native-gpbonus-sdk
 либо
-yarn add react-native-gpbonus-sdk
+yarn add @setpartnerstv/react-native-gpbonus-sdk
 ```
 
 Если в основном проекте не используются библиотеки '@react-native-clipboard/clipboard' и 'react-native-webview', то для корректной работы авто линковки необходимо добавить файл react-native.config.js
@@ -52,7 +52,7 @@ module.exports = {
 
 ## Usage
 
-Т.к. `react-native-gpbonus-sdk` является расширением [React Native webview](https://github.com/react-native-webview/react-native-webview), вы можете использовать Webview props, например :
+Т.к. `@setpartnerstv/react-native-gpbonus-sdk` является расширением [React Native webview](https://github.com/react-native-webview/react-native-webview), вы можете использовать Webview props, например :
 
 ```javascript
     <RNGPBonus
@@ -66,7 +66,7 @@ module.exports = {
 1.  Import `react-native-gpbonus-sdk`:
 
 ```javascript
-import import RNGPBonus from 'react-native-gpbonus-sdk';
+import import RNGPBonus from '@setpartnerstv/react-native-gpbonus-sdk';
 ```
 
 2.  Добавьте `<RNGPBonus>` компонент как модальное окно:
