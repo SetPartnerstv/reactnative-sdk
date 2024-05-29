@@ -1,5 +1,5 @@
 {
-  "name": "react-native-gpbonus-sdk",
+  "name": "@setpartnerstv/react-native-gpbonus-sdk",
   "title": "React Native GPBonus SDK",
   "version": "2.0.0",
   "description": "GPBonus ReactNative SDK",
@@ -32,6 +32,9 @@
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-native": ">=0.72.0",
